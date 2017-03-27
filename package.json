@@ -1,0 +1,31 @@
+{
+  "name": "learn-js",
+  "version": "0.0.1",
+  "description": "A collection of reusable helper methods for a variety of occasions.",
+  "main": "index.js",
+  "directories": {
+    "test": "./node_modules/jasmine/bin/jasmine.js"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "del": "^2.2.2",
+    "gulp": "^3.9.1",
+    "gulp-jasmine": "^2.4.2",
+    "jasmine": "^2.5.2",
+    "jasmine-spec-reporter": "^2.7.0"
+  },
+  "scripts": {
+    "test": "./node_modules/gulp/bin/gulp.js test",
+    "test:watch": "./node_modules/gulp/bin/gulp.js test:watch"
+  },
+  "author": "skuttleman@gmail.com",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/skuttleman/learn-js.git"
+  },
+  "bugs": {
+    "url": "https://github.com/skuttleman/learn-js/issues"
+  },
+  "homepage": "https://github.com/skuttleman/learn-js#readme"
+}
