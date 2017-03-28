@@ -5,7 +5,8 @@ const addMatchers = require('add-matchers')
 jasmineEnv.clearReporters();
 
 jasmineEnv.addReporter(new Reporter({
-  displayStacktrace: 'summary'
+  displayStacktrace: 'summary',
+  displayPendingSummary: false
 }));
 
 addMatchers({
