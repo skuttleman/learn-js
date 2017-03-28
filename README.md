@@ -10,9 +10,9 @@ $ cd learn-js
 $ npm install
 ```
 
-## Flow
+## Using This Repo
 
-Open the folder `spec/tests`. Go through each sub folder in order (starting with 0). And open each test file in order (starting with 0). When you have no failures, change the next `xdescribe` to `describe` to run the next set. When there are no more `xdescribe` blocks in a test file, move on to the next file/folder.
+Go through each sub-folder in the `src` directory in numeric order (starting with 0). Follow the directions in the markdown file which will include some reading and some exercises.
 
 ## Run tests
 
@@ -20,4 +20,13 @@ Open the folder `spec/tests`. Go through each sub folder in order (starting with
 $ npm test
 ```
 
-**IMPORTANT**: Make sure all tests are passing or pending before moving on to the next set.
+As you start each section, make sure to follow these directions:
+  - Open the associated file in the `spec` folder.
+  - Change the word `xdescribe` to `describe` near the top of the file.
+  - Run the test in the terminal with the command `npm test`. The first test should already pass.
+  - Edit the contents of the appropriate file in the `src` folder to make the second test pass.
+  - As you make each test pass, change the next place you see `xit` to `it`.
+  - Make sure to run the tests every time you change `xit` to `it`. Some tests may already be passing and won't need additional work.
+  - When all tests are passing in all associated exercises, move on to the next numbered section.
+
+**IMPORTANT**: Make sure all tests are passing or pending before moving on to the next section.
